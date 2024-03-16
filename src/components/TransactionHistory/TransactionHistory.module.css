@@ -1,0 +1,39 @@
+.table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: center;
+
+    border: 1px solid #000;
+    padding: 10px 60px;
+}
+
+.tableElement {
+    text-align: center;
+    font-size: 16px;
+    padding: 10px 60px;
+    border: 1px solid #000;
+}
+
+.tableColumn {
+    border: 1px solid #000;
+    text-align: center;
+}
+
+.tableColumn:nth-child(odd) {
+    background-color: #fff;
+    color: #000;
+}
+
+.tableColumn:nth-child(even) {
+    background-color: #bdb9b9;
+    color: #000;
+}
+
+.typeTransaction {
+    text-align: left;
+    display: inline-block;
+    width: 80px;
+    text-transform: capitalize;
+    border-left: none;
+    border-right: none;
+}
